@@ -1,6 +1,6 @@
 # phenixio.AuthTokensApi
 
-All URIs are relative to *https://local.sandbox.phenixio.com/api*
+All URIs are relative to *https://testnet.phenixio.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -26,10 +26,10 @@ from phenixio.api import auth_tokens_api
 from phenixio.model.token_pair import TokenPair
 from phenixio.model.token_obtain_pair import TokenObtainPair
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -96,10 +96,10 @@ import phenixio
 from phenixio.api import auth_tokens_api
 from phenixio.model.token_refresh import TokenRefresh
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -165,10 +165,10 @@ import phenixio
 from phenixio.api import auth_tokens_api
 from phenixio.model.token_verify import TokenVerify
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 

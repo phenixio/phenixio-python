@@ -1,6 +1,6 @@
 # phenixio.PaymentsApi
 
-All URIs are relative to *https://local.sandbox.phenixio.com/api*
+All URIs are relative to *https://testnet.phenixio.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -28,10 +28,10 @@ from phenixio.api import payments_api
 from phenixio.model.payment_input import PaymentInput
 from phenixio.model.payment_output import PaymentOutput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -40,9 +40,9 @@ with phenixio.ApiClient() as api_client:
     # Create an instance of the API class
     api_instance = payments_api.PaymentsApi(api_client)
     data = PaymentInput(
-        amount=0,
+        value="value_example",
         description="description_example",
-        currency="currency_example",
+        currency="usd",
         metadata=MetadataInput(
             customer_email="customer_email_example",
             customer_name="customer_name_example",
@@ -106,10 +106,10 @@ import phenixio
 from phenixio.api import payments_api
 from phenixio.model.paid_charges_output import PaidChargesOutput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -169,10 +169,10 @@ import phenixio
 from phenixio.api import payments_api
 from phenixio.model.payment_output import PaymentOutput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -232,10 +232,10 @@ import phenixio
 from phenixio.api import payments_api
 from phenixio.model.payment_output import PaymentOutput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -299,10 +299,10 @@ import phenixio
 from phenixio.api import payments_api
 from phenixio.model.output import Output
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 

@@ -1,6 +1,6 @@
 # phenixio.SubscriptionsApi
 
-All URIs are relative to *https://local.sandbox.phenixio.com/api*
+All URIs are relative to *https://testnet.phenixio.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -28,10 +28,10 @@ import phenixio
 from phenixio.api import subscriptions_api
 from phenixio.model.subscription_input import SubscriptionInput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -98,10 +98,10 @@ import phenixio
 from phenixio.api import subscriptions_api
 from phenixio.model.subscription_input import SubscriptionInput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -161,10 +161,10 @@ import phenixio
 from phenixio.api import subscriptions_api
 from phenixio.model.subscription_plan_input import SubscriptionPlanInput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -238,10 +238,10 @@ import phenixio
 from phenixio.api import subscriptions_api
 from phenixio.model.subscription_plan_input import SubscriptionPlanInput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -301,10 +301,10 @@ import phenixio
 from phenixio.api import subscriptions_api
 from phenixio.model.subscription_plan_output import SubscriptionPlanOutput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
@@ -368,10 +368,10 @@ import phenixio
 from phenixio.api import subscriptions_api
 from phenixio.model.subscription_output import SubscriptionOutput
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 

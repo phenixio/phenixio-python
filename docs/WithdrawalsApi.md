@@ -1,6 +1,6 @@
 # phenixio.WithdrawalsApi
 
-All URIs are relative to *https://local.sandbox.phenixio.com/api*
+All URIs are relative to *https://testnet.phenixio.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -23,10 +23,10 @@ import phenixio
 from phenixio.api import withdrawals_api
 from phenixio.model.withdrawal_request import WithdrawalRequest
 from pprint import pprint
-# Defining the host is optional and defaults to https://local.sandbox.phenixio.com/api
+# Defining the host is optional and defaults to https://testnet.phenixio.com/api
 # See configuration.py for a list of all supported configuration parameters.
 configuration = phenixio.Configuration(
-    host = "https://local.sandbox.phenixio.com/api"
+    host = "https://testnet.phenixio.com/api"
 )
 
 
